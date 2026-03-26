@@ -24,5 +24,6 @@ jobs:
           context: .
           push: true
           tags: |
-            your-dockerhub-username/mingfang914/duanjava
-            your-dockerhub-username/mingfang914:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/duanjava:latest
+            ${{ secrets.DOCKER_USERNAME }}/duanjava:${{ github.sha }}
+
