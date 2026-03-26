@@ -25,4 +25,4 @@ jobs:
           push: true
           tags: |
             your-dockerhub-username/mingfang914/duanjava
-            your-dockerhub-username/DemoCICD:${{ github.sha }}
+            your-dockerhub-username/mingfang914:${{ github.sha }}
