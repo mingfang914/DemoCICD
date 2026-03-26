@@ -26,3 +26,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/duanjava:latest
             ${{ secrets.DOCKER_USERNAME }}/duanjava:${{ github.sha }}
+
